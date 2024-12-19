@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyqt-spectrum"
+version = "1.8.4"
+description = "A tool for analysing spectrums and deconvolution"
+authors = ["Y.Khokhriakova"]
+license = "-"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.3"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

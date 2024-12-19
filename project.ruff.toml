@@ -1,0 +1,4 @@
+[tool.ruff]
+line-length = 88  # Длина строки
+select = ["E", "F"]  # Активировать правила ошибок и форматирования
+ignore = ["W503"]  # Игнорировать некоторые правила (например, "line break before binary operator")
